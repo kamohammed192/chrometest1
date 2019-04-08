@@ -12,7 +12,7 @@ public class ChromeTest
 	@Test
 	public void chrometest() throws InterruptedException
 	{
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		Thread.sleep(4000);
